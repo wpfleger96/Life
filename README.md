@@ -83,10 +83,17 @@ diagonally adjacent.
 
 At each step in time, the following transitions occur:
 
- 1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.
- 2. Any live cell with two or three live neighbours lives on to the next generation.
- 3. Any live cell with more than three live neighbours dies, as if by overcrowding.
- 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+ 1. Any live cell with fewer than two live neighbours dies, as if caused by 
+    under-population.
+
+ 2. Any live cell with two or three live neighbours lives on to the next 
+    generation.
+
+ 3. Any live cell with more than three live neighbours dies, as if by 
+    overcrowding.
+    
+ 4. Any dead cell with exactly three live neighbours becomes a live cell, as if 
+    by reproduction.
 
 The initial pattern constitutes the seed of the system. The first generation is 
 created by applying the above rules simultaneously to every cell in the seed.
@@ -123,8 +130,8 @@ changes using commits and even revert to a previous revision if necessary.
 
 ## Directory Structure and Packages
 
-All of the non-test classes for this project should be contained in the <code>src/main/java/</code>
-directory. These classes are in the default package.
+All of the non-test classes for this project should be contained in the 
+<code>src/main/java/</code> directory. These classes are in the default package.
 
 ## Method Summary
 
@@ -137,13 +144,15 @@ complete this project and/or make things easier for you.
  1. The constructor <code>Life(String seedFile)</code>: This method constructs 
     the Game of Life using the information provided by the seed file.
 
- 2. <code>void display()</code>
+ 2. <code>void display()</code>: Displays the grid.
  
- 3. <code>void prompt()</code>
+ 3. <code>void prompt()</code>: Prompts the user for input.
  
- 4. <code>void update()</code>
+ 4. <code>void update()</code>: Updated the grid according to the rules of the
+    game of life.
  
- 5. <code>boolean isRunning()</code>
+ 5. <code>boolean isRunning()</code>: Returns true if the game is running, false
+    otherwise.
 
 ## Build System
 
