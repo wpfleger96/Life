@@ -8,7 +8,7 @@ public class Life {
     /**
      *
      */
-	public Life() {
+	public Life(String seedFile) {
 
 	} // Life
 
