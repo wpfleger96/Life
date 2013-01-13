@@ -72,6 +72,8 @@ You may earn extra credit for each of the tasks listed below:
 
 ## Game of Life
 
+![Game of Life](http://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 of square cells, each of which is in one of two possible states, alive or dead. 
 In this project, the two-dimensional grid will be implemented using a
