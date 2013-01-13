@@ -93,6 +93,11 @@ this happens is sometimes called a tick (in other words, each generation is a
 pure function of the preceding one). The rules continue to be applied repeatedly 
 to create further generations.
 
+One of the trickiest parts of implementing the Game of Life is making sure that
+you can consistently access all eight neighbors for each cell. Cells that are on
+an edge of the grid are still adjacent with cells in the opposite edge. For
+example, the cells on the top edge are adjacent to the cells on the bottom edge.
+
 ## Resources
 
 The files for this project are hosted Github using <code>git</code>. They can be
@@ -122,7 +127,16 @@ directory. These classes are in the default package.
 ## Method Summary
 
 Below is the list of methods you will need to implement in order to complete
-this project.
+this project. 
+
+**Note**: You may need to create other methods not listed below in order to
+complete this project and/or make things easier for you. 
+
+ 1. The constructor <code>Life(String seedFile)</code>: 
+ 2. <code>void display()</code>
+ 3. <code>void prompt()</code>
+ 4. <code>void update()</code>
+ 5. <code>boolean isRunning()</code>
 
 ## Build System
 
