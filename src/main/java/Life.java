@@ -6,7 +6,12 @@ public class Life {
     private boolean[][] grid;
 
     /**
+     * The Constructor
      *
+     * This method constructs the Game of Life using the information provided by
+     * the seed file.
+     *
+     * @param seedFile the seed file
      */
 	public Life(String seedFile) {
 

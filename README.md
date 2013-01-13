@@ -134,10 +134,15 @@ this project.
 **Note**: You may need to create other methods not listed below in order to
 complete this project and/or make things easier for you. 
 
- 1. The constructor <code>Life(String seedFile)</code>: 
+ 1. The constructor <code>Life(String seedFile)</code>: This method constructs 
+    the Game of Life using the information provided by the seed file.
+
  2. <code>void display()</code>
+ 
  3. <code>void prompt()</code>
+ 
  4. <code>void update()</code>
+ 
  5. <code>boolean isRunning()</code>
 
 ## Build System
