@@ -83,6 +83,8 @@ public class Driver {
 			game.update();
 		} // while
 
+		System.out.println("Game Over!");
+
 	} // main
 	
 } // Driver

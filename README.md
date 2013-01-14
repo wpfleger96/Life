@@ -213,15 +213,84 @@ complete this project and/or make things easier for you.
  1. The constructor <code>Life(String seedFile)</code>: This method constructs 
     the Game of Life using the information provided by the seed file.
 
- 2. <code>void display()</code>: Displays the grid.
+ 2. <code>void display()</code>: Displays the grid. More information about
+    displaying the grid is included in a section below.
  
- 3. <code>void prompt()</code>: Prompts the user for input.
+ 3. <code>void prompt()</code>: Prompts the user for input. The user should be
+    presented with the option to either continue to the next generation or quit
+    the game. More information on the prompt is included in a section below.
  
  4. <code>void update()</code>: Updated the grid according to the rules of the
     game of life.
+
+ 5. <code>void init(int numCells)</code>: Generates the initial population 
+    randomly.
  
- 5. <code>boolean isRunning()</code>: Returns true if the game is running, false
-    otherwise.
+### Note about Other Methods
+
+Although there are other methods already implemented (for convenience), you may
+find it extremely useful to modify the <code>boolean getCell(int row, int col)</code>
+and <code>boolean setCell(int row, int col, boolean alive)</code> methods in
+order to make your algorithm in the <code>void update()</code> easier to
+implement.
+
+### Displaying the Grid
+
+The grid should be displayed in a consistent manner. The border of the grid
+should be denoted by asterisks (*) and cells in the grid that are alive should
+be denoted by plus signs (+). Cells which are dead are to denoted by whitespace. 
+
+Here is an example of a grid with 10 rows and 10 columns.
+
+```
+**********************
+*++                  *
+*                    *
+*                    *
+*     +              *
+*      +             *
+*                    *
+*                    *
+*                    *
+*                    *
+*                    *
+**********************
+```
+
+In the example above, cells with grid coordinates <code>0,0</code>, <code>0, 1</code>,
+<code>3, 5</code>, and <code>4, 6</code> are alive. Note that <code>0,0</code> 
+is located in the upper left-hand side of the grid.
+
+### The Prompt
+
+The prompt should look like this:
+
+```
+(c)ontinue or (q)uit: 
+```
+
+There should be a whitespace included after the colon (:) and user input should
+be read on the __same line__ as the prompt. User input can be broken down into 
+three scenarios:
+
+ * The user enters in "c": In this scenario, you can simply do nothing and let 
+   the game loop continue.
+
+ * The user enters in "q": In this scenario, you must exit the game. This can be
+   done quie easily (since the game loop logic is implemented <code>Driver.java</code>)
+   by setting the instance variable <code>running</code> to <code>false</code>.
+
+ * The user enters in something that is not "c" or "q": In this scenario, the
+   following message should be displayed and the user should be re-prompted for
+   input:
+
+   ```
+   Incorrect input. Please try again.
+   ```
+
+The basic logic for the prompt can be done recursively or iteratively using a
+while loop. I suggest you take the iterative approach as we have not covered
+recursion yet.
 
 ## Build System
 

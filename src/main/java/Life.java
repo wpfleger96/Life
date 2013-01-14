@@ -27,15 +27,22 @@ public class Life {
      */
 	public Life(int rows, int cols) {
 
-		// 1. Set the instance variables rows and cols appropriately
+		// 1. Set the instance variables for rows and cols appropriately
+
+		this.rows = // TODO
+		this.cols = // TODO
 
 		// 2. Create the 2-dimensional array with the appropriate size
+		
+		this.grid = // TODO
 
 	} // Life
 
 
 	/**
 	 * Generates the initial population randomly
+	 *
+	 * @param numCells the number of initial cells
 	 */
 	public void init(int numCells) {
 
@@ -56,19 +63,7 @@ public class Life {
 	} // prompt
 
 	/**
-	 * Updates the grid.
-	 *
-	 * Updates the grid according to the following rules:
-	 * <ol>
-	 *   <li>Any live cell with fewer than two live neighbours dies, as if 
-	 *   caused by under-population.</li>
-     *   <li>Any live cell with two or three live neighbours lives on to the 
-     *   next generation.</li>
-     *   <li>Any live cell with more than three live neighbours dies, as if by 
-     *   overcrowding.</li>
-     *   <li>Any dead cell with exactly three live neighbours becomes a live 
-     *   cell, as if by reproduction.</li>
-     * </ol>
+	 * Updates the grid according to the rules.
 	 */
 	public void update() {
 
@@ -76,6 +71,8 @@ public class Life {
 
 	/**
 	 * Returns true if the game is running, false otherwise.
+	 *
+	 * @return true if the game is running, false otherwise.
 	 */
 	public boolean isRunning() {
 		return this.running;
@@ -83,6 +80,8 @@ public class Life {
 
 	/** 
 	 * Returns the number of rows in the grid.
+	 * 
+	 * @return the number of rows in the grid
 	 */
 	public int getRows() {
 		return this.rows;
@@ -90,6 +89,8 @@ public class Life {
 
 	/** 
 	 * Returns the number of columns in the grid.
+	 *
+	 * @return the number of columns in the grid
 	 */
 	public int getCols() {
 		return this.cols;
@@ -97,6 +98,8 @@ public class Life {
 
 	/**
 	 * Returns the value of the cell at the specified location within the grid.
+	 *
+	 * @return the value of the cell at the specified location within the grid
 	 */
 	public boolean getCell(int row, int col) {
 		// HINT: You can modify this method to make your algorithm a lot easier
@@ -105,6 +108,11 @@ public class Life {
 
 	/**
 	 * Sets the value of the cell at the specified location within the grid.
+	 *
+	 * @param row the row index of the cell
+	 * @param col the col index of the cell
+	 * @param alive true if you the specified cell should be made alive, false
+	 *        otherwise.
 	 */
 	public void setCell(int row, int col, boolean alive) {
 		// HINT: You can modify this method to make your algorithm a lot easier
