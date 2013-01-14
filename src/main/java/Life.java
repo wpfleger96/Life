@@ -20,21 +20,14 @@ public class Life {
     /**
      * The Constructor
      *
-     * This method constructs the Game of Life using the information provided by
-     * the seed file.
-     *
-     * @param seedFile the seed file
+     * @param rows the number of rows in the grid
+     * @param cols the number of columns in the grid
      */
 	public Life(int rows, int cols) {
 
 		// 1. Set the instance variables for rows and cols appropriately
 
-		this.rows = // TODO
-		this.cols = // TODO
-
 		// 2. Create the 2-dimensional array with the appropriate size
-		
-		this.grid = // TODO
 
 	} // Life
 

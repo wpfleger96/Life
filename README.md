@@ -210,8 +210,15 @@ this project.
 **Note**: You may need to create other methods not listed below in order to
 complete this project and/or make things easier for you. 
 
- 1. The constructor <code>Life(String seedFile)</code>: This method constructs 
-    the Game of Life using the information provided by the seed file.
+ 1. The constructor <code>Life(int rows, int cols)</code>: This method constructs 
+    the Game of Life using with a grid of the specified size. In this method,
+    you will need to set the instance variables for <code>rows</code> and 
+    <code>cols</code> appropriately. Remember that when a method parameter and
+    an instance variable use the same literal for their name, you need to access
+    the instance variable using the <code>this</code> keyword. You will also 
+    need to create the 2-dimensional boolean array that will be used for the 
+    grid (at the appropriate size) and assign it to the <code>grid</code>
+    instance variable.
 
  2. <code>void display()</code>: Displays the grid. More information about
     displaying the grid is included in a section below.
@@ -220,8 +227,26 @@ complete this project and/or make things easier for you.
     presented with the option to either continue to the next generation or quit
     the game. More information on the prompt is included in a section below.
  
- 4. <code>void update()</code>: Updated the grid according to the rules of the
-    game of life.
+ 4. <code>void update()</code>: Update the grid according to the rules of the
+    Game of Life. In this method, you will need to create a new two-dimensional
+    boolean array (for the grid at the next time step/tick) that is the same
+    size as the existing grid. Then, you will examine every cell in the existing
+    grid and apply the following rules:
+
+     1. If a cell in the existing grid is alive and has fewer than two 
+        neighbours that are alive, then it should be set to dead in the new 
+        grid. We call this under-population. 
+
+     2. If a cell in the existing grid is alive and has two or three neighbours 
+        that are alive, then it should be set to alive in the new grid.
+
+     3. If a cell in the existing grid is alive and has more than three 
+        neighbours that are alive, then it should be set to dead in the new 
+        grid. We call this overcrowding.
+
+     4. If a cell in the existing grid is dead and has exactly three neighbours
+        that are alive, then it should be set to alive in the new grid. We call 
+        this reproduction.
 
  5. <code>void init(int numCells)</code>: Generates the initial population 
     randomly.
