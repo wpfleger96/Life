@@ -1,21 +1,19 @@
-
-
 /**
  * This class represents an implementation of Conway's Game of Life.
  */
 public class Life {
 
     // is the game running?
-    private boolean running = true;
+	private boolean running = true;
 
     // the number of rows
-    private int rows;
+	private int rows;
 
     // the number of columns
-    private int cols;
+	private int cols;
 
     // the 2-dimensional grid
-    private boolean[][] grid;
+	private boolean[][] grid;
 
     /**
      * The Constructor
@@ -23,7 +21,7 @@ public class Life {
      * @param rows the number of rows in the grid
      * @param cols the number of columns in the grid
      */
-	public Life(int rows, int cols) {
+    public Life(int rows, int cols) {
 
 		// 1. Set the instance variables for rows and cols appropriately
 
