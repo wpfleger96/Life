@@ -208,7 +208,6 @@ complete this project and/or make things easier for you.
 
  1. (5 points) The constructor <code>Life(int rows, int cols)</code>: This 
     method constructs the Game of Life using with a grid of the specified size. 
-
     In this method,
     you will need to set the instance variables for <code>rows</code> and 
     <code>cols</code> appropriately. Remember that when a method parameter and
@@ -228,7 +227,6 @@ complete this project and/or make things easier for you.
  
  4. (10 points) <code>void update()</code>: Update the grid according to the 
     rules of the Game of Life. 
-
     In this method, you will need to create a new two-dimensional
     boolean array (for the grid at the next time step/tick) that is the same
     size as the existing grid. Then, you will examine every cell in the existing
@@ -255,7 +253,6 @@ complete this project and/or make things easier for you.
 
  5. (10 points) <code>void init(int numCells)</code>: Generates the initial 
     population randomly. 
-
     In this method, you will need to randomly make a cell in the grid alive as 
     many times as is indicated by the <code>numCells</code> parameter</code>. 
     Take special care that you do not assign <code>true</code> to the same 
