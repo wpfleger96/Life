@@ -143,6 +143,10 @@ random
 10
 ```
 
+You can run the game using the above seed file by using the following command:
+
+    $ sbt "run Driver seeds/seed2.txt"
+
 Here is an example of a _set_ seed file with a grid size of 340 rows and 480
 columns. In this example, three cells are made alive in the initial population
 (i.e., the cells at positions <code>0, 0</code>, <code>10, 10</code> and 
@@ -158,6 +162,19 @@ set
 14 125
 ```
 
+You can run the game using the above seed file by using the following command:
+
+    $ sbt "run Driver seeds/seed1.txt"
+
+As you can imagine, you can create your own seed files and place them in the 
+<code>seeds</code> directory. In order to run a game using your seed file, you
+can use the following command:
+
+    $ sbt "run Driver seeds/seedFile"
+
+All of the code for file IO is already implemented within 
+<code>Driver.java</code>. This code, for the most part, assumes that the seed
+file is correctly formatted.
 
 ## Resources
 
