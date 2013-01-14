@@ -141,7 +141,7 @@ random
 
 You can run the game using the above seed file by using the following command:
 
-    $ sbt "run Driver seeds/seed2.txt"
+    $ ./sbt "run Driver seeds/seed2.txt"
 
 Here is an example of a _set_ seed file with a grid size of 340 rows and 480
 columns. In this example, three cells are made alive in the initial population
