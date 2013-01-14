@@ -141,13 +141,13 @@ columns. The number of random cells to make alive in the initial population is
 random
 340 480
 10
-
 ```
 
 Here is an example of a _set_ seed file with a grid size of 340 rows and 480
 columns. In this example, three cells are made alive in the initial population
 (i.e., the cells at positions <code>0, 0</code>, <code>10, 10</code> and 
-<code>14, 125</code> are alive).
+<code>14, 125</code> are alive). Index positions are based on standard array
+indices where the first element is indexed at 0.
 
 ```
 set
@@ -157,8 +157,6 @@ set
 10 10
 14 125
 ```
-
-The easiest ways 
 
 
 ## Resources
