@@ -45,12 +45,13 @@ material as well as your ability to compile, test, run and submit assignments on
 
 Before you submit your project, you need to perform the following tasks:
 
- 1. (40 points) Implement <code>Life.java</code>. You will find information
-    about the methods in the file itself as well as some more detailed
-    information later in this document. 
+ 1. (40 points) Implement <code>Life.java</code>. You will find more information
+    about the methods in the file (including a point breakdown) later in this 
+    document in the section called "Method Summary".
 
  5. (10 points) Include inline documentation where appropriate to explain how
-    your implementation works.
+    your implementation works. Also make sure your source code is neat and
+    properly indented. The grader needs to be able to read your code.
    
  6. Update the <code>README.md</code> in your project directory (this file) to 
     contain the following information at the top of the file (updating it with 
@@ -77,23 +78,18 @@ You may earn extra credit for each of the tasks listed below:
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 of square cells, each of which is in one of two possible states, alive or dead. 
 In this project, the two-dimensional grid will be implemented using a
-two-dimensional boolean array. Every cell or array coordinate interacts with its
+two-dimensional boolean array. A value of <code>true</code> in the array denotes
+that the cell at that coordinate in the grid is alive. Similarly, a value of 
+<code>falsee</code> in the array denotes that the cell at that coordinate in the
+grid is dead. 
+
+
+Every cell or array coordinate interacts with its
 eight neighbours, which are the cells that are horizontally, vertically, or 
 diagonally adjacent. 
 
-At each step in time, the following transitions occur:
-
- 1. Any live cell with fewer than two live neighbours dies, as if caused by 
-    under-population.
-
- 2. Any live cell with two or three live neighbours lives on to the next 
-    generation.
-
- 3. Any live cell with more than three live neighbours dies, as if by 
-    overcrowding.
-
- 4. Any dead cell with exactly three live neighbours becomes a live cell, as if 
-    by reproduction.
+At each step in time, certain rules are applied to the cells. These rules are
+explained in a later section.
 
 The initial pattern constitutes the seed of the system. The first generation is 
 created by applying the above rules simultaneously to every cell in the seed.
@@ -164,13 +160,13 @@ set
 
 You can run the game using the above seed file by using the following command:
 
-    $ sbt "run Driver seeds/seed1.txt"
+    $ ./sbt "run Driver seeds/seed1.txt"
 
 As you can imagine, you can create your own seed files and place them in the 
 <code>seeds</code> directory. In order to run a game using your seed file, you
 can use the following command:
 
-    $ sbt "run Driver seeds/seedFile"
+    $ ./sbt "run Driver seeds/seedFile"
 
 All of the code for file IO is already implemented within 
 <code>Driver.java</code>. This code, for the most part, assumes that the seed
@@ -210,8 +206,10 @@ this project.
 **Note**: You may need to create other methods not listed below in order to
 complete this project and/or make things easier for you. 
 
- 1. The constructor <code>Life(int rows, int cols)</code>: This method constructs 
-    the Game of Life using with a grid of the specified size. In this method,
+ 1. (5 points) The constructor <code>Life(int rows, int cols)</code>: This 
+    method constructs the Game of Life using with a grid of the specified size. 
+
+    In this method,
     you will need to set the instance variables for <code>rows</code> and 
     <code>cols</code> appropriately. Remember that when a method parameter and
     an instance variable use the same literal for their name, you need to access
@@ -220,37 +218,50 @@ complete this project and/or make things easier for you.
     grid (at the appropriate size) and assign it to the <code>grid</code>
     instance variable.
 
- 2. <code>void display()</code>: Displays the grid. More information about
-    displaying the grid is included in a section below.
+ 2. (5 points) <code>void display()</code>: Displays the grid. More information 
+    about displaying the grid is included in a section below.
  
- 3. <code>void prompt()</code>: Prompts the user for input. The user should be
-    presented with the option to either continue to the next generation or quit
-    the game. More information on the prompt is included in a section below.
+ 3. (10 points) <code>void prompt()</code>: Prompts the user for input. The user 
+    should be presented with the option to either continue to the next 
+    generation or quit the game. More information on the prompt is included in a
+    section below.
  
- 4. <code>void update()</code>: Update the grid according to the rules of the
-    Game of Life. In this method, you will need to create a new two-dimensional
+ 4. (10 points) <code>void update()</code>: Update the grid according to the 
+    rules of the Game of Life. 
+
+    In this method, you will need to create a new two-dimensional
     boolean array (for the grid at the next time step/tick) that is the same
     size as the existing grid. Then, you will examine every cell in the existing
     grid and apply the following rules:
 
-     1. If a cell in the existing grid is alive and has fewer than two 
-        neighbours that are alive, then it should be set to dead in the new 
-        grid. We call this under-population. 
+     * If a cell in the existing grid is alive and has fewer than two 
+       neighbours that are alive, then it should be set to dead in the new 
+       grid. We call this under-population. 
 
-     2. If a cell in the existing grid is alive and has two or three neighbours 
-        that are alive, then it should be set to alive in the new grid.
+     * If a cell in the existing grid is alive and has two or three neighbours 
+       that are alive, then it should be set to alive in the new grid.
 
-     3. If a cell in the existing grid is alive and has more than three 
-        neighbours that are alive, then it should be set to dead in the new 
-        grid. We call this overcrowding.
+     * If a cell in the existing grid is alive and has more than three 
+       neighbours that are alive, then it should be set to dead in the new 
+       grid. We call this overcrowding.
 
-     4. If a cell in the existing grid is dead and has exactly three neighbours
-        that are alive, then it should be set to alive in the new grid. We call 
-        this reproduction.
+     * If a cell in the existing grid is dead and has exactly three neighbours
+       that are alive, then it should be set to alive in the new grid. We call 
+       this reproduction.
 
- 5. <code>void init(int numCells)</code>: Generates the initial population 
-    randomly.
- 
+    After every cell has been examined and the new grid is populated, you need
+    to set the value of the existing grid instance variable to the newly created
+    array.
+
+ 5. (10 points) <code>void init(int numCells)</code>: Generates the initial 
+    population randomly. 
+
+    In this method, you will need to randomly make a cell in the grid alive as 
+    many times as is indicated by the <code>numCells</code> parameter</code>. 
+    Take special care that you do not assign <code>true</code> to the same 
+    location twice as that will result in fewer cells than intended being made 
+    alive.
+
 ### Note about Other Methods
 
 Although there are other methods already implemented (for convenience), you may
@@ -317,17 +328,26 @@ The basic logic for the prompt can be done recursively or iteratively using a
 while loop. I suggest you take the iterative approach as we have not covered
 recursion yet.
 
+### Random Numbers
+
+You can use the [<code>java.util.Random</code>](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html)
+class to generate random numbers. You will probably need to use an import 
+statement in order to make the class available for use. Alternatively, you may 
+find the static method [<code>Math.random()</code>](http://docs.oracle.com/javase/6/docs/api/java/lang/Math.html#random()) 
+simpler to use.
+
 ## Build System
 
-For this project, we will be using the Simple Build System (sbt). If you clone 
-the project from the GitHub repository then everything will be setup for you. In 
-order to compile your project, you can use the following command:
+For this project, we will be using the [Simple Build System (sbt)](http://www.scala-sbt.org/). 
+If you clone the project from the GitHub repository then everything you need 
+in order to compile and run your project on <code>nike</code> is already included. 
+In order to compile your project, you can use the following command:
 
     $ ./sbt compile
 
 To run your project, use the following command:
 
-    $ ./sbt run
+    $ ./sbt "run Driver seeds/seedFile"
 
 In order to clean your project (remove compiled code), use the following command:
 
