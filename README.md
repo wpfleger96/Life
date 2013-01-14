@@ -117,17 +117,17 @@ populate the grid. The format of a seed file is specified below (each point
 corresponds to a line in the file):
 
  1. The first line denotes whether or not the game is _random_ or 
-    _set_.
+    _set_.  
 
  2. The second line denotes the width and height of the grid, separated by a
-    whitespace. 
+    whitespace.  
 
  3. The third line dentoes how many cells to make alive in the initial 
-    population. 
+    population.  
 
  4. If the first line is _set_, then all subsequent lines represent a row and 
     column (separated by whitespace) of a cell to make alive in the initial 
-    population.
+    population.  
 
 Here is an example of a _random_ seed file with a grid size of 340 rows and 480
 columns. The number of random cells to make alive in the initial population is 
@@ -216,15 +216,15 @@ complete this project and/or make things easier for you.
     the instance variable using the <code>this</code> keyword. You will also 
     need to create the 2-dimensional boolean array that will be used for the 
     grid (at the appropriate size) and assign it to the <code>grid</code>
-    instance variable.
+    instance variable.  
 
  2. (5 points) <code>void display()</code>: Displays the grid. More information 
-    about displaying the grid is included in a section below.
+    about displaying the grid is included in a section below.  
  
  3. (10 points) <code>void prompt()</code>: Prompts the user for input. The user 
     should be presented with the option to either continue to the next 
     generation or quit the game. More information on the prompt is included in a
-    section below.
+    section below.  
  
  4. (10 points) <code>void update()</code>: Update the grid according to the 
     rules of the Game of Life. 
@@ -251,7 +251,7 @@ complete this project and/or make things easier for you.
 
     After every cell has been examined and the new grid is populated, you need
     to set the value of the existing grid instance variable to the newly created
-    array.
+    array.  
 
  5. (10 points) <code>void init(int numCells)</code>: Generates the initial 
     population randomly. 
