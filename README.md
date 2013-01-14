@@ -91,7 +91,7 @@ At each step in time, the following transitions occur:
 
  3. Any live cell with more than three live neighbours dies, as if by 
     overcrowding.
-    
+
  4. Any dead cell with exactly three live neighbours becomes a live cell, as if 
     by reproduction.
 
@@ -103,9 +103,63 @@ pure function of the preceding one). The rules continue to be applied repeatedly
 to create further generations.
 
 One of the trickiest parts of implementing the Game of Life is making sure that
-you can consistently access all eight neighbors for each cell. Cells that are on
-an edge of the grid are still adjacent with cells in the opposite edge. For
-example, the cells on the top edge are adjacent to the cells on the bottom edge.
+you can consistently access all eight neighbors for each cell, especially those
+neighbors that exist outside the bounds of the grid array. Programmers have used
+several strategies to address this problem. Tehe simplest strategy is simply to
+assume that every cell outside the array is dead because this is easy to
+program. However, it leads to inaccurate results when the active area crosses 
+the boundary. A more sophisticated trick (**and the one that you are expected to
+use**) is to consider the left and right edges of the grid to be stitched 
+together, and the top and bottom edges also, yielding what is sometimes referred
+to as a toroidal array. The result is that active areas that move across a grid
+edge reappear at the opposite edge. 
+
+## Seed Files
+
+This implementation of Conway's Game of Life will use seed files to initially
+populate the grid. The format of a seed file is specified below (each point
+corresponds to a line in the file):
+
+ 1. The first line denotes whether or not the game is _random_ or 
+    _set_.
+
+ 2. The second line denotes the width and height of the grid, separated by a
+    whitespace. 
+
+ 3. The third line dentoes how many cells to make alive in the initial 
+    population. 
+
+ 4. If the first line is _set_, then all subsequent lines represent a row and 
+    column (separated by whitespace) of a cell to make alive in the initial 
+    population.
+
+Here is an example of a _random_ seed file with a grid size of 340 rows and 480
+columns. The number of random cells to make alive in the initial population is 
+10.
+
+```
+random
+340 480
+10
+
+```
+
+Here is an example of a _set_ seed file with a grid size of 340 rows and 480
+columns. In this example, three cells are made alive in the initial population
+(i.e., the cells at positions <code>0, 0</code>, <code>10, 10</code> and 
+<code>14, 125</code> are alive).
+
+```
+set
+340 480
+3
+0 0
+10 10
+14 125
+```
+
+The easiest ways 
+
 
 ## Resources
 
@@ -202,6 +256,7 @@ If you have any questions, please email them to Michael E. Cotterell at
 
     This command updates the permissions on the file, making it executable for the
     current user.
+    
 
  2. I created a <code>Driver</code> class (a class with a <code>main</code> method), 
     but <code>sbt</code> won't run it when I execute <code>sbt run</code>. How do I
