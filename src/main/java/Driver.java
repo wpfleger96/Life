@@ -7,84 +7,84 @@ import java.util.Scanner;
  */
 public class Driver {
 	
-	/**
-	 * Entry point into the application
-	 */
-	public static void main(String[] args) {
+    /**
+     * Entry point into the application
+     */
+    public static void main(String[] args) {
 
-		if (args.length != 2) {
-			System.out.println("sbt usage: ./sbt \"run Driver <seedFile>\"");
-			System.exit(0);
-		} // if
+	if (args.length != 2) {
+	    System.out.println("sbt usage: ./sbt \"run Driver <seedFile>\"");
+	    System.exit(0);
+	} // if
 
-		// reference variable to hold the file object
-		File path = null;
+	// reference variable to hold the file object
+	File path = null;
 
-		// reference variable to hold the scanner object
-		Scanner file = null;
+	// reference variable to hold the scanner object
+	Scanner file = null;
 
-		try {
+	try {
 
-			// open the file
-			path = new File(args[1]);
+	    // open the file
+	    path = new File(args[1]);
 
-			// create a scanner
-			file = new Scanner(path);
+	    // create a scanner
+	    file = new Scanner(path);
 
-		} catch (IOException e) {
-			System.out.printf("Error handling file: %s \n", e);
-			System.exit(0);
-		} // try
+	} catch (IOException e) {
+	    System.out.printf("Error handling file: %s \n", e);
+	    System.exit(0);
+	} // try
 
-		// the first token will be the game type
-		String gameType = file.next().trim();
+	// the first token will be the game type
+	String gameType = file.next().trim();
 
-		// the second and third tokens are the grid size
-		int rows = file.nextInt();
-		int cols = file.nextInt();
+	// the second and third tokens are the grid size
+	int rows = file.nextInt();
+	int cols = file.nextInt();
 
-		// determine the number of cells that will be alive in the initial
-		// population
-		int numCells = file.nextInt();
+	// determine the number of cells that will be alive in the initial
+	// population
+	int numCells = file.nextInt();
 
-		// create a new game of life
-		Life game = new Life(rows, cols);
+	// create a new game of life
+	Life game = new Life(rows, cols);
 
-		// if the game is random, call the init method, otherwise set according
-		// to the positions in the file
-		if (gameType.equalsIgnoreCase("random")) {
+	// if the game is random, call the init method, otherwise set according
+	// to the positions in the file
+	if (gameType.equalsIgnoreCase("random")) {
 
-			// call the init method
-			game.init(numCells);
+	    // call the init method
+	    game.init(numCells);
 
-		} else if (gameType.equalsIgnoreCase("set")) {
+	} else if (gameType.equalsIgnoreCase("set")) {
 
-			// set according to the positions in the file
-			for (int i = 0; i < numCells; i++) {
+	    // set according to the positions in the file
+	    for (int i = 0; i < numCells; i++) {
 
-				// determine the row and column of a cell to make alive
-				int row = file.nextInt();
-				int col = file.nextInt();
+		// determine the row and column of a cell to make alive
+		int row = file.nextInt();
+		int col = file.nextInt();
 
-				// make that cell alive
-				game.setCell(row, col, true);
+		// make that cell alive
+		game.setCell(row, col, true);
 
-			} // for
+	    } // for
 
-		} else {
-			System.out.printf("Error parsing file: %s (unrecognized game type) \n", path);
-			System.exit(0);
-		} // if
+	} else {
+	    System.out.printf("Error parsing file: %s (unrecognized game type) \n", path);
+	    System.exit(0);
+	} // if
 
-		// game loop
-		while (game.isRunning()) {
-			game.display();
-			game.prompt();
-			game.update();
-		} // while
+	// game loop
+	while (game.isRunning()) {
+	    game.display();
+	    game.prompt();
+	    game.update();
+	} // while
 
-		System.out.println("Game Over!");
+	System.out.println("Game Over!");
 
-	} // main
+    } // main
 	
 } // Driver
