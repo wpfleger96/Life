@@ -234,20 +234,20 @@ complete this project and/or make things easier for you.
     size as the existing grid. Then, you will examine every cell in the existing
     grid and apply the following rules:
 
-     * If a cell in the existing grid is alive and has fewer than two 
-       neighbours that are alive, then it should be set to dead in the new 
-       grid. We call this under-population. 
+      * If a cell in the existing grid is alive and has fewer than two 
+        neighbours that are alive, then it should be set to dead in the new 
+        grid. We call this under-population. 
 
-     * If a cell in the existing grid is alive and has two or three neighbours 
-       that are alive, then it should be set to alive in the new grid.
+      * If a cell in the existing grid is alive and has two or three neighbours 
+        that are alive, then it should be set to alive in the new grid.
 
-     * If a cell in the existing grid is alive and has more than three 
-       neighbours that are alive, then it should be set to dead in the new 
-       grid. We call this overcrowding.
+      * If a cell in the existing grid is alive and has more than three 
+        neighbours that are alive, then it should be set to dead in the new 
+        grid. We call this overcrowding.
 
-     * If a cell in the existing grid is dead and has exactly three neighbours
-       that are alive, then it should be set to alive in the new grid. We call 
-       this reproduction.
+      * If a cell in the existing grid is dead and has exactly three neighbours
+        that are alive, then it should be set to alive in the new grid. We call 
+        this reproduction.
 
     After every cell has been examined and the new grid is populated, you need
     to set the value of the existing grid instance variable to the newly created
