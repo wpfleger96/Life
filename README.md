@@ -175,10 +175,10 @@ file is correctly formatted.
 ## Resources
 
 The files for this project are hosted Github using <code>git</code>. They can be
-retrieved by cloning the repository found at <code>git@github.com:mepcotterell-cs1302/cs1302-life.git</code>. 
+retrieved by cloning the repository found at <code>git://github.com/mepcotterell-cs1302/cs1302-life.git</code>. 
 For example, you can issue the following command to clone the repository:
 
-    $ git clone git@github.com:mepcotterell-cs1302/cs1302-life.git LastName-FirstName-p1
+    $ git clone git://github.com/mepcotterell-cs1302/cs1302-life.git LastName-FirstName-p1
 
 As always, I suggest developing directly on <code>nike.cs.uga.edu</code> because
 this is where your project will be run and tested. Since <code>git</code> is 
