@@ -69,7 +69,8 @@ Before you submit your project, you need to perform the following tasks:
 
 You may earn extra credit for each of the tasks listed below:
 
- 1. (20 points extra credit) 
+ 1. (10 points extra credit) Use ANSI escape codes to make live cells appear bright green
+    on the screen.
 
 ## Game of Life
 
