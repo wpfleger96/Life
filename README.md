@@ -327,10 +327,10 @@ recursion yet.
 
 ### Random Numbers
 
-You can use the [<code>java.util.Random</code>](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html)
+You can use the [<code>java.util.Random</code>](http://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
 class to generate random numbers. You will probably need to use an import 
 statement in order to make the class available for use. Alternatively, you may 
-find the static method [<code>Math.random()</code>](http://docs.oracle.com/javase/6/docs/api/java/lang/Math.html#random()) 
+find the static method [<code>Math.random()</code>](http://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random()) 
 simpler to use.
 
 ## Build System
@@ -357,7 +357,7 @@ work is on <code>nike.cs.uga.edu</code> in a directory called
 <code>LastName-FirstName-p1</code>, and, from within the parent directory, 
 execute the following command:
 
-    $ submit LastName_FirstName-p1 cs1302b
+    $ submit LastName_FirstName-p1 cs1302a
 
 It is also a good idea to email a copy to yourself. To do this, simply execute 
 the following command, replacing the email address with your email address:
@@ -368,7 +368,7 @@ the following command, replacing the email address with your email address:
 ## Questions
 
 If you have any questions, please email them to Michael E. Cotterell at 
-<code>mepcotterell+1302@gmail.com</code>
+<code>mepcott@uga.edu</code>
 
 ## Frequently Asked Questions
 
@@ -396,5 +396,6 @@ If you have any questions, please email them to Michael E. Cotterell at
     do?
 
     You should email your question to Michael E. Cotterell at 
-    <code>mepcotterell+1302@gmail.com</code>
+    <code>mepcott@uga.edu</code>. An even better idea would be to create a Piazza
+    post for your question.
 
