@@ -1,7 +1,9 @@
-# CSCI 1302 - Game of Life Project (cs1302-life)
+# Game of Life Project (cs1302-life)
 
 This repository contains the skeleton code for the Game of Life project assigned
 to the Fall 2015 students in CSCI 1302 class at the University of Georgia. 
+
+**This project is due Monday 2015-09-14 @ 10:00 AM.**
 
 **Please read the entirety of this file before beginning your project.**
 
