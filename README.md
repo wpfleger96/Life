@@ -1,15 +1,14 @@
 # CSCI 1302 - Game of Life Project (cs1302-life)
 
 This repository contains the skeleton code for the Game of Life project assigned
-to the students in Michael E. Cotterell's Spring 2013 CSCI 1302 class at the 
-University of Georgia. 
+to the Fall 2015 students in CSCI 1302 class at the University of Georgia. 
 
 **Please read the entirety of this file before beginning your project.**
 
 ## Academic Honesty
 
 You implicitly agree to Academic Honesty policy as outlined in the course 
-syllabus and course website (available at: http://cs.uga.edu/~mec/cs1302/).
+syllabus and course website.
 
 In accordance with the notice above, I must caution you **not** to fork this
 repository on GitHub if you have an account. Doing so will more than likely make
@@ -45,11 +44,11 @@ material as well as your ability to compile, test, run and submit assignments on
 
 Before you submit your project, you need to perform the following tasks:
 
- 1. (40 points) Implement <code>Life.java</code>. You will find more information
+ 1. (80 points) Implement <code>Life.java</code>. You will find more information
     about the methods in the file (including a point breakdown) later in this 
     document in the section called "Method Summary".
 
- 5. (10 points) Include inline documentation where appropriate to explain how
+ 5. (20 points) Include inline documentation where appropriate to explain how
     your implementation works. Also make sure your source code is neat and
     properly indented. The grader needs to be able to read your code.
    
@@ -60,7 +59,7 @@ Before you submit your project, you need to perform the following tasks:
     ```markdown
     # Project Submission
 
- Author: YOUR NAME (LAST 3 DIGITS OF 810 NUMBER HERE)
+ Author: YOUR NAME (LAST 3 DIGITS OF 810/811 NUMBER HERE)
 
     [If you did any of the extra credit then please indicate that here.]
     ```
@@ -69,8 +68,10 @@ Before you submit your project, you need to perform the following tasks:
 
 You may earn extra credit for each of the tasks listed below:
 
- 1. (10 points extra credit) Use ANSI escape codes to make live cells appear bright green
-    on the screen.
+ 1. (10 points extra credit) Use ANSI escape codes to make live cells appear 
+    bright green on the screen. If you choose to do this extra credit, you'll 
+    need to look up how to do it. It will not be discussed in class.
+    
 
 ## Game of Life
 
@@ -84,10 +85,8 @@ that the cell at that coordinate in the grid is alive. Similarly, a value of
 <code>falsee</code> in the array denotes that the cell at that coordinate in the
 grid is dead. 
 
-
-Every cell or array coordinate interacts with its
-eight neighbours, which are the cells that are horizontally, vertically, or 
-diagonally adjacent. 
+Every cell or array coordinate interacts with its eight neighbours, which are 
+the cells that are horizontally, vertically, or diagonally adjacent. 
 
 At each step in time, certain rules are applied to the cells. These rules are
 explained in a later section.
@@ -130,13 +129,13 @@ corresponds to a line in the file):
     column (separated by whitespace) of a cell to make alive in the initial 
     population.  
 
-Here is an example of a _random_ seed file with a grid size of 340 rows and 480
+Here is an example of a _random_ seed file with a grid size of 60 rows and 80
 columns. The number of random cells to make alive in the initial population is 
 10.
 
 ```
 random
-340 480
+60 80
 10
 ```
 
@@ -144,19 +143,19 @@ You can run the game using the above seed file by using the following command:
 
     $ ./sbt "run Driver seeds/seed2.txt"
 
-Here is an example of a _set_ seed file with a grid size of 340 rows and 480
+Here is an example of a _set_ seed file with a grid size of 40 rows and 80
 columns. In this example, three cells are made alive in the initial population
 (i.e., the cells at positions <code>0, 0</code>, <code>10, 10</code> and 
-<code>14, 125</code> are alive). Index positions are based on standard array
+<code>30, 60</code> are alive). Index positions are based on standard array
 indices where the first element is indexed at 0.
 
 ```
 set
-340 480
+40 80
 3
 0 0
 10 10
-14 125
+30 60
 ```
 
 You can run the game using the above seed file by using the following command:
