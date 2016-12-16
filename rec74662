@@ -1,0 +1,62 @@
+Pfleger-Will-p1:
+total 1224
+-rw-r--r--. 1 ugrad     297 Sep 14 03:00 build.sbt
+drwxr-xr-x. 3 ugrad    4096 Sep 14 03:02 project
+-rw-r--r--. 1 ugrad   16494 Sep 14 03:00 README.md
+-rw-r--r--. 1 ugrad       0 Sep 14 03:08 rec74662
+-rwxr-xr-x. 1 ugrad      51 Sep 14 03:00 sbt
+-rw-r--r--. 1 ugrad 1210221 Sep 14 03:00 sbt-launch.jar
+drwxr-xr-x. 2 ugrad    4096 Sep 14 03:00 seeds
+drwxr-xr-x. 3 ugrad    4096 Sep 14 03:00 src
+
+Pfleger-Will-p1/project:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 14 03:02 target
+
+Pfleger-Will-p1/project/target:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 14 03:03 config-classes
+
+Pfleger-Will-p1/project/target/config-classes:
+total 88
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $1f994ddac2b6d28cc173.cache
+-rw-r--r--. 1 ugrad  339 Sep 14 03:03 $1f994ddac2b6d28cc173.class
+-rw-r--r--. 1 ugrad 2218 Sep 14 03:03 $1f994ddac2b6d28cc173$.class
+-rw-r--r--. 1 ugrad 1390 Sep 14 03:03 $2e46ad2a1af6bba1f81c$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $2e46ad2a1af6bba1f81c.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $2e46ad2a1af6bba1f81c.class
+-rw-r--r--. 1 ugrad 1559 Sep 14 03:03 $2e46ad2a1af6bba1f81c$.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $447cc6564a5b69c07969.cache
+-rw-r--r--. 1 ugrad  339 Sep 14 03:03 $447cc6564a5b69c07969.class
+-rw-r--r--. 1 ugrad 2221 Sep 14 03:03 $447cc6564a5b69c07969$.class
+-rw-r--r--. 1 ugrad  903 Sep 14 03:03 $7a0d273cebdc0ce36fb9$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $7a0d273cebdc0ce36fb9.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $7a0d273cebdc0ce36fb9.class
+-rw-r--r--. 1 ugrad 1329 Sep 14 03:03 $7a0d273cebdc0ce36fb9$.class
+-rw-r--r--. 1 ugrad  911 Sep 14 03:03 $b170a89b6ad3af18c342$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $b170a89b6ad3af18c342.cache
+-rw-r--r--. 1 ugrad  738 Sep 14 03:03 $b170a89b6ad3af18c342.class
+-rw-r--r--. 1 ugrad 1326 Sep 14 03:03 $b170a89b6ad3af18c342$.class
+-rw-r--r--. 1 ugrad  958 Sep 14 03:03 $bb02ef9b284d356d1c69$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $bb02ef9b284d356d1c69.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $bb02ef9b284d356d1c69.class
+-rw-r--r--. 1 ugrad 1338 Sep 14 03:03 $bb02ef9b284d356d1c69$.class
+
+Pfleger-Will-p1/seeds:
+total 8
+-rw-r--r--. 1 ugrad 29 Sep 14 03:00 seed1.txt
+-rw-r--r--. 1 ugrad 16 Sep 14 03:00 seed2.txt
+
+Pfleger-Will-p1/src:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 14 03:00 main
+
+Pfleger-Will-p1/src/main:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 14 03:00 java
+
+Pfleger-Will-p1/src/main/java:
+total 12
+-rw-r--r--. 1 ugrad 1969 Sep 14 03:00 Driver.java
+-rw-r--r--. 1 ugrad 5996 Sep 14 03:02 Life.java
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1:/home/work/cs1302a

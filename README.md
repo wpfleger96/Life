@@ -61,7 +61,7 @@ Before you submit your project, you need to perform the following tasks:
     ```markdown
     # Project Submission
 
- Author: YOUR NAME (LAST 3 DIGITS OF 810/811 NUMBER HERE)
+ Author: WILLIAM PFLEGER (283)
 
     [If you did any of the extra credit then please indicate that here.]
     ```

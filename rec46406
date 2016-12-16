@@ -1,0 +1,522 @@
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1:
+total 1232
+-rw-r--r--. 1 ugrad     297 Sep 14 03:00 build.sbt
+drwxr-xr-x. 3 ugrad    4096 Sep 14 03:02 project
+-rw-r--r--. 1 ugrad   16467 Sep 15 10:44 README.md
+-rw-r--r--. 1 ugrad       0 Sep 15 23:01 rec46406
+-rw-r--r--. 1 ugrad    2674 Sep 14 03:08 rec74662
+-rwxr-xr-x. 1 ugrad      51 Sep 14 03:00 sbt
+-rw-r--r--. 1 ugrad 1210221 Sep 14 03:00 sbt-launch.jar
+drwxr-xr-x. 2 ugrad    4096 Sep 15 23:00 seeds
+drwxr-xr-x. 3 ugrad    4096 Sep 14 03:00 src
+drwxr-xr-x. 5 ugrad    4096 Sep 15 22:33 target
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/project:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 14 03:02 target
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/project/target:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 14 03:03 config-classes
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/project/target/config-classes:
+total 88
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $1f994ddac2b6d28cc173.cache
+-rw-r--r--. 1 ugrad  339 Sep 14 03:03 $1f994ddac2b6d28cc173.class
+-rw-r--r--. 1 ugrad 2218 Sep 14 03:03 $1f994ddac2b6d28cc173$.class
+-rw-r--r--. 1 ugrad 1390 Sep 14 03:03 $2e46ad2a1af6bba1f81c$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $2e46ad2a1af6bba1f81c.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $2e46ad2a1af6bba1f81c.class
+-rw-r--r--. 1 ugrad 1559 Sep 14 03:03 $2e46ad2a1af6bba1f81c$.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $447cc6564a5b69c07969.cache
+-rw-r--r--. 1 ugrad  339 Sep 14 03:03 $447cc6564a5b69c07969.class
+-rw-r--r--. 1 ugrad 2221 Sep 14 03:03 $447cc6564a5b69c07969$.class
+-rw-r--r--. 1 ugrad  903 Sep 14 03:03 $7a0d273cebdc0ce36fb9$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $7a0d273cebdc0ce36fb9.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $7a0d273cebdc0ce36fb9.class
+-rw-r--r--. 1 ugrad 1329 Sep 14 03:03 $7a0d273cebdc0ce36fb9$.class
+-rw-r--r--. 1 ugrad  911 Sep 14 03:03 $b170a89b6ad3af18c342$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $b170a89b6ad3af18c342.cache
+-rw-r--r--. 1 ugrad  738 Sep 14 03:03 $b170a89b6ad3af18c342.class
+-rw-r--r--. 1 ugrad 1326 Sep 14 03:03 $b170a89b6ad3af18c342$.class
+-rw-r--r--. 1 ugrad  958 Sep 14 03:03 $bb02ef9b284d356d1c69$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Sep 14 03:03 $bb02ef9b284d356d1c69.cache
+-rw-r--r--. 1 ugrad  416 Sep 14 03:03 $bb02ef9b284d356d1c69.class
+-rw-r--r--. 1 ugrad 1338 Sep 14 03:03 $bb02ef9b284d356d1c69$.class
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/seeds:
+total 16
+-rw-r--r--. 1 ugrad 28 Sep 15 20:46 seed1.txt
+-rw-r--r--. 1 ugrad 16 Sep 14 03:00 seed2.txt
+-rw-r--r--. 1 ugrad 16 Sep 15 22:13 seed3.txt
+-rw-r--r--. 1 ugrad 17 Sep 15 23:00 seed4.txt
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/src:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 14 03:00 main
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/src/main:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:26 java
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/src/main/java:
+total 12
+-rw-r--r--. 1 ugrad 1969 Sep 14 03:00 Driver.java
+-rw-r--r--. 1 ugrad 6113 Sep 15 22:26 Life.java
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target:
+total 12
+drwxr-xr-x. 4 ugrad 4096 Sep 15 22:33 resolution-cache
+drwxr-xr-x. 3 ugrad 4096 Sep 15 23:00 scala-2.10
+drwxr-xr-x. 5 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/resolution-cache:
+total 8
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 cs1302-life
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 reports
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/resolution-cache/cs1302-life:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 cs1302-life_2.10
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/resolution-cache/cs1302-life/cs1302-life_2.10:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 1.0
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/resolution-cache/cs1302-life/cs1302-life_2.10/1.0:
+total 8
+-rw-r--r--. 1 ugrad  630 Sep 15 22:33 resolved.xml.properties
+-rw-r--r--. 1 ugrad 2009 Sep 15 22:33 resolved.xml.xml
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/resolution-cache/reports:
+total 96
+-rw-r--r--. 1 ugrad   447 Sep 15 22:33 cs1302-life-cs1302-life_2.10-compile-internal.xml
+-rw-r--r--. 1 ugrad   438 Sep 15 22:33 cs1302-life-cs1302-life_2.10-compile.xml
+-rw-r--r--. 1 ugrad   435 Sep 15 22:33 cs1302-life-cs1302-life_2.10-docs.xml
+-rw-r--r--. 1 ugrad   439 Sep 15 22:33 cs1302-life-cs1302-life_2.10-optional.xml
+-rw-r--r--. 1 ugrad   437 Sep 15 22:33 cs1302-life-cs1302-life_2.10-plugin.xml
+-rw-r--r--. 1 ugrad   434 Sep 15 22:33 cs1302-life-cs1302-life_2.10-pom.xml
+-rw-r--r--. 1 ugrad   439 Sep 15 22:33 cs1302-life-cs1302-life_2.10-provided.xml
+-rw-r--r--. 1 ugrad   447 Sep 15 22:33 cs1302-life-cs1302-life_2.10-runtime-internal.xml
+-rw-r--r--. 1 ugrad   438 Sep 15 22:33 cs1302-life-cs1302-life_2.10-runtime.xml
+-rw-r--r--. 1 ugrad  7554 Sep 15 22:33 cs1302-life-cs1302-life_2.10-scala-tool.xml
+-rw-r--r--. 1 ugrad   438 Sep 15 22:33 cs1302-life-cs1302-life_2.10-sources.xml
+-rw-r--r--. 1 ugrad  4368 Sep 15 22:33 cs1302-life-cs1302-life_2.10-test-internal.xml
+-rw-r--r--. 1 ugrad  4324 Sep 15 22:33 cs1302-life-cs1302-life_2.10-test.xml
+-rw-r--r--. 1 ugrad  4371 Sep 15 22:33 ivy-report.css
+-rw-r--r--. 1 ugrad 20993 Sep 15 22:33 ivy-report.xsl
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/scala-2.10:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 classes
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/scala-2.10/classes:
+total 8
+-rw-r--r--. 1 ugrad 1569 Sep 15 22:33 Driver.class
+-rw-r--r--. 1 ugrad 3258 Sep 15 22:33 Life.class
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams:
+total 12
+drwxr-xr-x. 16 ugrad 4096 Sep 15 22:59 compile
+drwxr-xr-x.  9 ugrad 4096 Sep 15 22:33 $global
+drwxr-xr-x. 10 ugrad 4096 Sep 15 22:59 runtime
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile:
+total 56
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 compile
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 compileIncremental
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 copyResources
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 incCompileSetup
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 mainClass
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 run
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 unmanagedJars
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compile:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compile/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compile/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compileIncremental:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compileIncremental/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/compileIncremental/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad   0 Sep 15 22:33 export
+-rw-r--r--. 1 ugrad 777 Sep 15 23:00 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/copyResources:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/copyResources/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/copyResources/$global/streams:
+total 8
+-rw-r--r--. 1 ugrad 23 Sep 15 23:00 copy-resources
+-rw-r--r--. 1 ugrad 83 Sep 15 23:00 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 81 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/$global/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 discoveredMainClasses
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/$global/$global/discoveredMainClasses:
+total 4
+-rw-r--r--. 1 ugrad 12 Sep 15 23:00 data
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/incCompileSetup:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/incCompileSetup/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/incCompileSetup/$global/streams:
+total 16
+-rw-r--r--. 1 ugrad 13263 Sep 15 22:33 inc_compile_2.10
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/mainClass:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/mainClass/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/mainClass/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:59 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/run:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/run/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/run/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 612 Sep 15 23:00 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/compile/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global:
+total 28
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 clean
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 dependencyPositions
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 ivyConfiguration
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 ivySbt
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 projectDescriptors
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 update
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/clean:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/clean/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/clean/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/dependencyPositions:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/dependencyPositions/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/dependencyPositions/$global/streams:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 update_cache_2.10
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10:
+total 8
+-rw-r--r--. 1 ugrad  74 Sep 15 22:33 input_dsp
+-rw-r--r--. 1 ugrad 157 Sep 15 23:00 output_dsp
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/$global/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/$global/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivyConfiguration:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivyConfiguration/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivyConfiguration/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 172 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivySbt:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivySbt/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/ivySbt/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/projectDescriptors:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/projectDescriptors/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/projectDescriptors/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Sep 15 22:33 out
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/update:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/update/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:33 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/update/$global/streams:
+total 28
+-rw-r--r--. 1 ugrad 20729 Sep 15 22:33 out
+drwxr-xr-x. 2 ugrad  4096 Sep 15 22:33 update_cache_2.10
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/$global/update/$global/streams/update_cache_2.10:
+total 20
+-rw-r--r--. 1 ugrad  1490 Sep 15 22:33 inputs
+-rw-r--r--. 1 ugrad 13654 Sep 15 23:00 output
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime:
+total 32
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 fullClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 unmanagedJars
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 81 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 81 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/fullClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/fullClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/fullClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 81 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 81 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Sep 15 22:59 $global
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Sep 15 22:59 streams
+
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1/target/streams/runtime/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Sep 15 23:00 export
+/home/ugrads/pfleger/CSCI1302/Project1/Pfleger-Will-p1:/home/work/cs1302a
